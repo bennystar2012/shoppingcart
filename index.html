@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Shopping Cart</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/index.css">
+        <link rel="stylesheet" href="assets/css/animate.css">
+    </head>
+    <body>
+        <div class="row">
+            <div class="col-md-2 side-bar">
+                <div class="side">
+                    <div class="shopping-cart-text">
+                        <h3>Shopping cart</h3>
+                    </div>
+                    <hr class="small-line"/>
+                    <img src="assets/images/cart.png" height="200px" width="200px"/>
+                    <button onclick="changeView()" type="button" class="btn btn-light">
+                    view Shopping cart
+                </button>
+                </div>
+            </div>
+    
+       <div class="col-md-10 full-bar">
+           <input class="xty form-control mr-sm-2" type="search" placeholder="search" aria-label="">
+           <hr>
+        <div class="empty-top"></div>
+        <div class="items">
+        <p>Item name: T-Shirt <span class="quantity">     Quantity: <input type="text"></span> </p>
+        <p>Price:  <span class="price"> N6000</span></p></p>
+        <button class="add-cart animated bounce infinite">Add to cart</button>
+        <hr>
+        <br>
+        <p>Item name: Dress <span class="quantity">     Quantity: <input type="text"></span> </p>
+        <p>Price:  <span class="price"> N8000</span></p></p>
+        <button class="add-cart animated hinge infinite">Add to cart</button>
+        <hr>
+        <br>
+        <p>Item name: Shorts <span class="quantity">     Quantity: <input type="text"></span> </p>
+        <p>Price:  <span class="price"> N4000</span></p></p>
+        <button class="add-cart">Add to cart</button>
+        <hr>
+        <br>
+        <p>Item name: Jean<span class="quantity">     Quantity: <input type="text"></span> </p>
+        <p>Price: <span class="price"> N7000</span></p>
+        <button class="add-cart">Add to cart</button>
+        <div class="empty-top2"></div>
+    <table class="table">
+        <thead>
+          <tr class="benny">
+            <th scope="col">Item name</th>
+            <th scope="col">Price</th>
+            <th scope="col">Quantity</th>
+            <!-- <th scope="col">Handle</th> -->
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">Dress</th>
+            <td>N8000</td>
+            <td>2</td>
+            <td class="remove">Remove</td>
+          </tr>
+          <tr>
+            <th scope="row">Shorts</th>
+            <td>N4000</td>
+            <td>1</td>
+            <td class="remove">Remove</td>
+          </tr>
+          <tr>
+            <!-- <th scope="row">3</th>
+            <td>Larry</td>
+            <td>the Bird</td>
+            <td>@twitter</td> -->
+          </tr>
+        </tbody>
+      </table>
+</div>    
+        <hr>
+        <br></div>
+    </div>
+</div>
+
+        <script src="" async defer></script>
+    </body>
+</html>
